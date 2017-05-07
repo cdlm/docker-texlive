@@ -7,9 +7,9 @@ This repo defines **three docker images** based on Ubuntu Xenial and including
 progressive amounts of stuff. Docker can fetch pre-built images
 from [Docker Hub: `dpollet/texlive`][dockerhub].
 
-- `dpollet/texlive` (defined by `base/Dockerfile`) includes a few tools (Make,
-  Latexmk…) and a partial_ish_ TeXlive distribution that is able to build the
-  sample LaTeX documents that come with the [SBAbook LaTeX class][sbabook].
+- `dpollet/texlive:base` (defined in `base/Dockerfile`) includes a few tools
+  (Make, Latexmk…) and a partial_ish_ TeXlive distribution that is able to build
+  the sample LaTeX documents that come with the [SBAbook LaTeX class][sbabook].
 
 - `dpollet/texlive:full` extends the previous image to a full-blown TeXlive
   distribution.
